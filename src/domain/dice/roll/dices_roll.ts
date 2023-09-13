@@ -10,9 +10,4 @@ export interface IDicesPool {
   readonly count: number;
 }
 
-export interface IDicesRollScope {
-  successRoll: boolean;
-  scope: number;
-}
-
 export interface IDicesRoll extends IDicesPool {}
